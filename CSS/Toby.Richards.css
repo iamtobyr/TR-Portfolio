@@ -5,6 +5,13 @@
 
 body {margin:0;}
 
+@media only screen and (max-device-width: 480px) {
+.hero-text{ transform: translate(40%, -70%);
+	top: 30%;
+	left: 5%;
+	}
+    }
+
 img {
     width: 86px;
 }
