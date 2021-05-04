@@ -131,6 +131,10 @@ footer {
 	font-size: 29px;
 	}
 .main {
+	height: 1900px;
 	width: fit-content;
+	}
+.mainblank {
+	height: 1900px
 	}
     }
