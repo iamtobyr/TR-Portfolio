@@ -89,7 +89,7 @@ h5{
   margin: auto;
   padding: 16px;
   margin-top: 260px;
-  height: 1500px; /* Used in this example to enable scrolling */
+  /* height: 1500px; Used in testing to enable scrolling */
   width: 700px;
 }
 
