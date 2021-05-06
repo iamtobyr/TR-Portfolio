@@ -125,16 +125,16 @@ footer {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-.hero-text{ transform: translate(0%, -70%);
+.hero-text{ transform: translate(0%, -65%);
 	top: 30%;
 	left: 5%;
 	font-size: 29px;
 	}
 .main {
-	height: 1900px;
+	height: 2100px;
 	width: fit-content;
 	}
 .mainblank {
-	height: 1900px
+	height: 2100px
 	}
     }
