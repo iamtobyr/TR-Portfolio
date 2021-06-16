@@ -33,7 +33,7 @@ h5{
     vertical-align: middle;
 }
 
-.hero-image {
+.header-image {
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ h5{
   position: relative;
 }
 
-.hero-text {
+.header-text {
   font-family: 'Bad Script', cursive;
   min-width: 973px;	
   font-size: 32px;
@@ -126,7 +126,7 @@ footer {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-.hero-text{ 
+.header-text{ 
 	width: 100%;
 	font-size: 19px;
 	}
