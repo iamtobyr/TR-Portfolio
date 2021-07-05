@@ -28,6 +28,16 @@ h5{
   margin: 5px;
 }
 
+.title {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold;
+}
+
+.jobs {
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+}
+
 .material-icons {
 	display: inline-flex;
     vertical-align: middle;
