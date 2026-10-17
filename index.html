@@ -1,43 +1,78 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"" />
-    <title> Toby Richards </title>
-    <link rel="shortcut icon" type="image/png" href="img/TRFaveicon.png"/>
-    <link rel="stylesheet" href="CSS/Toby.Richards.css"/>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">										      
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Toby Richards</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/TRFaveicon.png">
+    <link rel="stylesheet" href="CSS/Toby.Richards.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<div id="page-container">
-  <div id="content-wrap">
-<div class="header-image">
-<!-- <img src="\img\HeroImage.jpg" alt="HeroImage"></img> -->
- <div class="header-text">
-    <h1>I am Toby Richards</h1>
-    <p>And I'm an amateur web developer</p>
-  </div>
+
+<div id="progressBar"></div>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+	<button id="themeToggle" class="theme-toggle">
+    <span class="material-icons">dark_mode</span>
+	</button>
+
+        <div class="hero-content">
+
+            <h1>I am Toby Richards</h1>
+
+            <p id="rotatingText"></p>
+
+            <div class="scroll-arrow" id="scrollArrow">
+                <span class="material-icons">keyboard_double_arrow_down</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- NAVBAR -->
+    <div id="navbar" class="navbar">
+
+        <a href="#">
+            <h5>Toby Richards</h5>
+        </a>
+
+        <div class="navbar-right">
+
+    <button id="navbarThemeToggle" class="navbar-theme-toggle">
+        <span class="material-icons">dark_mode</span>
+    </button>
+
+    <a href="mailto:me@tobyrichards.uk">
+        <i class="material-icons">mail</i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/toby-richards-5704a3211">
+        <i class="material-icons">person</i>
+    </a>
+
 </div>
 
-<div id="navbar" class="navbar">
-  <a href="#"><h5>Toby Richards</h5></a>
-	     
-  
-<div class="navbar-right">
-  <a href="mailto:me@tobyrichards.uk"><i class="material-icons">mail</i></a> 
-  <a href="https://www.linkedin.com/in/toby-richards-5704a3211"><i class="material-icons">person</i><a/>
-</div>
-</div>
+    </div>
 
-<div id="main" class="main">
- <div id="aboutme" class ="blank">
-  <h3>About Me</h3>
-  <hr>
-  <h2>I’m Toby. At present I am a 2nd Line Service Desk Analyst in Burton. I have experience in HTML5, CSS, JavaScript, Visual Basic, C# and C++.
+    <!-- MAIN CONTENT -->
+    <main class="main">
+
+        <section id="aboutme" class="aboutme">
+
+            <h3>About Me</h3>
+            <hr>
+
+            <h2>I’m Toby. At present I am a 2nd Line Service Desk Analyst in Burton. I have experience in HTML5, CSS, JavaScript, Visual Basic, C# and C++.
 I have recently completed studying a Bachelor of Science (honours) in Computing and Information Technologies achieving a First Class Degree.</h2><br>
 
     <h3>Career History</h3>
@@ -74,8 +109,6 @@ policies are applied.</li>
 </div>
 
 <div class="jobs"><p class="title">IT System Support Engineer <span style="float: right;">June 2015 - November 2021</span></p>
-<p>Briggs Of Burton</P>
-<ul>
 <p>Briggs Of Burton</P>
 <ul>
 <li>Responsible for looking after over 170 users across the UK and US, their laptops, PCs and mobile phones.</li>
@@ -138,53 +171,279 @@ Achieving 13 GCSE’s A* to C, including Maths and English.</P>
 </table><br>
 
 <h3>Skills and Qualities</h3>  <hr>
-<h2>I have experience in HTML5, CSS, Javascript, Visual Basic and C#. I like to learn new skills and try new activities.
+<p>I have experience in HTML5, CSS, Javascript, Visual Basic and C#. I like to learn new skills and try new activities.
  I always aim to complete tasks to the best of my ability and take pride in my work. 
  I am sociable and easy to get along with.
  I enjoy meeting people and I am good at working with people in a team as well as on my own.
  I have a full current clean driving license and the use of a car. I am reliable and punctual. 
  I am a member of two football teams and play football regularly.
- I enjoy going up and down the country visiting football stadiums and following Aston Villa.</h2> <br>
+ I enjoy going up and down the country visiting football stadiums and following Aston Villa.</p> <br>
  
  <h3>Interests</h3>  <hr>
 <ul>
   <h2><li>Football  <span class="material-icons">sports_soccer</span></li></h2>
   <h2><li>Pubbing  <span class="material-icons">sports_bar</span></li></h2>
+  <h2><li>Smart Tech  <span class="material-icons smart-bulb">lightbulb</span></li></h2>
   <h2><li>Excel  <span class="material-icons">computer</span></li></h2>
   <h2><li>Coding  <span class="material-icons">code</span></li></h2>
   <h2><li>Video Games  <span class="material-icons">sports_esports</span></li></h2>
   <h2><li>Cars  <span class="material-icons">directions_car</span></li></h2>
   <h2><li>Exploring  <span class="material-icons">travel_explore</span></li></h2>
-  <h2><li>Learning Spanish  <span class="material-icons">language</span></li></h2>						 
+  <h2><li>Learning Spanish  <span class="material-icons">language</span></li></h2>			
+  <h2><li>Audacity  <span class="material-icons">headphones</span></li></h2>		 
   <h2><li>Collecting 50ps  <span class="material-icons">savings</span></li></h2>
 </ul><br>
 <h3>Certificates and References</h3>   <hr>
   <h2>Available on request.</h2>  
 
   
-</div>
-</div>
-</div>
+</section>
 
-        <footer id="footer">
-            <p>
-                © 2021, Toby Richards.
-            </p>
-        </footer>
- </div>
-<script>
-// When the user scrolls down 200 pixels from the top of the document, slide down the navbar
-window.onscroll = function() {scrollFunction()};
+    </main>
 
-function scrollFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    document.getElementById("navbar").style.top = "0";
-	document.getElementById("aboutme").className = "aboutme";
-  } else {
-    document.getElementById("navbar").style.top = "-120px"; 
-	document.getElementById("aboutme").className = "blank"; 
-  }
+    <footer id="footer">
+        <p>© 2026, Built with HTML, CSS, JavaScript & ☕ by Toby Richards.</p>
+    </footer>
+    <script>
+
+        const navbar = document.getElementById("navbar");
+        const aboutMe = document.getElementById("aboutme");
+        const scrollArrow = document.getElementById("scrollArrow");
+        const hero = document.querySelector(".hero");
+
+        // Show arrow shortly after page load
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                scrollArrow.classList.add("show");
+            }, 500);
+        });
+
+const arrowIcon = document.querySelector("#scrollArrow .material-icons");
+
+const icons = [
+    "keyboard_double_arrow_down",
+    "swipe_down",
+    "ads_click",
+    "touch_app"
+];
+
+let currentIcon = 0;
+
+setInterval(() => {
+
+    arrowIcon.style.opacity = "0";
+
+    setTimeout(() => {
+
+        currentIcon = (currentIcon + 1) % icons.length;
+        arrowIcon.textContent = icons[currentIcon];
+
+        arrowIcon.style.opacity = "1";
+
+    }, 300);
+
+}, 2500);
+
+        // Smooth scroll when arrow clicked
+        scrollArrow.addEventListener("click", () => {
+
+             document.getElementById("aboutme").scrollIntoView({
+        	behavior: "smooth",
+        	block: "start"
+            });
+
+        });
+
+document.addEventListener("mousemove", e => {
+
+    document.documentElement.style.setProperty(
+        "--x",
+        e.clientX + "px"
+    );
+
+    document.documentElement.style.setProperty(
+        "--y",
+        e.clientY + "px"
+    );
+
+});
+
+const texts = [
+    "And I'm an amateur web developer",
+    "And I'm a service desk analyst",
+    "And I'm a vba developer",
+    "And I'm a football fan",
+    "And I'm a problem solver",
+    "And I'm always learning"
+];
+
+let textIndex = 0;
+
+const rotatingText = document.getElementById("rotatingText");
+
+rotatingText.textContent = texts[0];
+
+setInterval(() => {
+
+    rotatingText.style.opacity = 0;
+
+    setTimeout(() => {
+        textIndex = (textIndex + 1) % texts.length;
+        rotatingText.textContent = texts[textIndex];
+        rotatingText.style.opacity = 1;
+    }, 300);
+
+}, 3000);
+
+        // Main scroll effects
+        window.addEventListener("scroll", () => {
+
+const progressBar =
+    document.getElementById("progressBar");
+
+const winScroll =
+    document.documentElement.scrollTop;
+
+const height =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+
+const scrolled =
+    (winScroll / height) * 100;
+
+progressBar.style.width =
+    scrolled + "%";
+
+            const scrollY = window.scrollY;
+
+            // Hero fade out
+           document.querySelector(".hero-content").style.opacity =
+    Math.max(0, 1 - (scrollY / 500));
+
+            // Navbar appears
+            if (scrollY > 200) {
+                navbar.classList.add("show");
+            } else {
+                navbar.classList.remove("show");
+            }
+
+            // About Me reveal
+            const triggerPoint = window.innerHeight * 0.75;
+
+            if (aboutMe.getBoundingClientRect().top < triggerPoint) {
+                aboutMe.classList.add("visible");
+            }
+
+        });
+
+function toggleTheme() {
+
+    document.body.classList.toggle("dark");
+
+    const icon =
+        document.body.classList.contains("dark")
+            ? "light_mode"
+            : "dark_mode";
+
+    themeToggle.querySelector(".material-icons")
+        .textContent = icon;
+
+    navbarThemeToggle.querySelector(".material-icons")
+        .textContent = icon;
 }
-</script>
+
+const themeToggle = document.getElementById("themeToggle");
+const navbarThemeToggle =
+    document.getElementById("navbarThemeToggle");
+const smartBulb =
+    document.querySelector(".smart-bulb");
+const smartColours = [
+    "#ffd700",  // Warm White
+    "#00e5ff",  // Cyan
+    "#00ff80",  // Green
+    "#ff00ff",  // Purple
+    "#ff6b6b",  // Red
+    "#ff9500"   // Orange
+];
+
+let smartColourIndex = 0;
+
+setInterval(() => {
+
+    if (document.body.classList.contains("dark")) {
+
+        smartColourIndex =
+            (smartColourIndex + 1) % smartColours.length;
+
+        document.documentElement.style.setProperty(
+            "--smartColour",
+            smartColours[smartColourIndex]
+        );
+
+    }
+
+}, 1000);
+themeToggle.addEventListener("click", toggleTheme);
+
+navbarThemeToggle.addEventListener("click", toggleTheme);
+smartBulb.addEventListener("click", () => {
+
+    toggleTheme();
+
+});
+
+function toggleTheme() {
+
+    document.body.classList.toggle("dark");
+smartBulb.classList.remove("bulb-click");
+
+void smartBulb.offsetWidth;
+
+smartBulb.classList.add("bulb-click");
+
+
+    const icon =
+        document.body.classList.contains("dark")
+            ? "light_mode"
+            : "dark_mode";
+
+    themeToggle.querySelector(".material-icons")
+        .textContent = icon;
+
+    navbarThemeToggle.querySelector(".material-icons")
+        .textContent = icon;
+
+    const heading =
+        document.querySelector(".hero-content h1");
+
+    heading.style.animation = "none";
+
+    void heading.offsetWidth;
+
+    heading.style.animation =
+        "heroText 1s ease forwards, shine 4s ease 1s 1";
+}
+
+themeToggle.addEventListener("click", toggleTheme);
+
+navbarThemeToggle.addEventListener("click", toggleTheme);
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 200) {
+
+        themeToggle.classList.add("in-navbar");
+
+    } else {
+
+        themeToggle.classList.remove("in-navbar");
+
+    }
+
+});
+
+    </script>
+
 </body>
+
 </html>
